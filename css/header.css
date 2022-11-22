@@ -76,6 +76,18 @@
 	display: none;
 }
 
+.container-titulo, .opcoes, .container-texto {
+	display: none;
+}
+
+.menu-item:active {
+	background: var(--azul-degrade);
+}
+
+.menu-item:active > .menu-link {
+	-webkit-text-fill-color: var(--branco);
+}
+
 @media screen and (min-width: 1024px) {
 	.container-titulo {
 		font-family:	var(--fonte-titulo);
